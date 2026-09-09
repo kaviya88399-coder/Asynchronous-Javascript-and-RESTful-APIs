@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard - Thiranex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+    <p class="subtitle">Fetch real-time data using REST API</p>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name e.g. Chennai">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="loader">Fetching weather...</div>
+    <div id="error"></div>
+
+    <div id="result-card">
+      <h2 id="cityName"></h2>
+      <p id="desc"></p>
+      <div class="metrics">
+        <div class="box"><span>Temp</span><h3 id="temp"></h3></div>
+        <div class="box"><span>Humidity</span><h3 id="humidity"></h3></div>
+        <div class="box"><span>Wind Speed</span><h3 id="wind"></h3></div>
+        <div class="box"><span>Feels Like</span><h3 id="feels"></h3></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
