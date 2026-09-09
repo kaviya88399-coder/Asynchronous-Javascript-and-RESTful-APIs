@@ -1,0 +1,15 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#f0f7ff;display:flex;justify-content:center;padding:20px}
+.container{background:white;width:100%;max-width:500px;border-radius:16px;padding:25px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+h1{color:#1e3a8a}
+.subtitle{color:#64748b;margin:5px 0 15px}
+.search-box{display:flex;gap:10px;margin:15px 0}
+.search-box input{flex:1;padding:12px;border-radius:8px;border:1px solid #ccc}
+.search-box button{padding:12px 20px;background:#2563eb;color:white;border:none;border-radius:8px;cursor:pointer}
+#loader{display:none;color:#2563eb;text-align:center;margin:10px}
+#error{display:none;color:red;background:#fee2e2;padding:10px;border-radius:8px;margin-top:10px}
+#result-card{display:none;margin-top:20px}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:15px}
+.box{background:#eff6ff;padding:15px;border-radius:10px;text-align:center}
+.box span{font-size:13px;color:#64748b}
+.box h3{margin-top:5px;font-size:20px}
